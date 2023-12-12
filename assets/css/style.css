@@ -133,7 +133,10 @@ section{
     text-transform: uppercase;
 }
 
-
+#addresses h3,
+#addresses span{
+    font-size: 1.2rem;
+}
 .icons button{
     background-color: #3a546d;
     border: 1px solid white;
