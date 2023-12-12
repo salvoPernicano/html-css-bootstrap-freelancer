@@ -36,12 +36,12 @@ header nav ul a{
 
 .container-fluid:nth-of-type(odd){
     background-color: #1abc9c;
-    text-transform: uppercase;
 }
 
 
 .container-fluid h1{
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .container-fluid figure{
@@ -81,3 +81,41 @@ header nav ul a{
     color: #1abc9c;
     background-color: white;
 }
+
+.form_contatti{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.form_contatti h2:not(:last-of-type){
+    font-size: 1.5rem;
+    border-bottom: 1px solid grey;
+    width: 200px;
+    padding-block: 1em;
+}
+
+input,
+textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-block: 1em;
+}
+.white{
+    width: 100px;
+    background-color: white;
+    font-size: 1.5rem;
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+    border-radius: 5px;
+    padding: 10px 15px;
+    transition: all .5s;
+}
+
+.white:hover{
+    color: white;
+    background-color: #1abc9c;
+}
+
