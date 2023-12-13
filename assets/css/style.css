@@ -101,13 +101,3 @@ section:last-of-type{
     color: white;
     text-align: center;
 }
-
-/* @media screen and (max-width: 767px){
-    header nav ul{
-        display: none;
-    }
-
-    header nav svg{
-        display: block;
-    }
-} */
