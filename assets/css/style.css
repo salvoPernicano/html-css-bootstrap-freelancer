@@ -3,40 +3,6 @@ header{
     padding-block: 2em;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 1em;
-}
-
-.logo a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-header nav ul{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    list-style: none;
-    margin: 0;
-}
-
-header nav ul a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-header nav svg{
-    display: none;
-}
 
 .container-fluid:nth-of-type(odd){
     background-color: #1abc9c;
@@ -136,7 +102,7 @@ section:last-of-type{
     text-align: center;
 }
 
-@media screen and (max-width: 767px){
+/* @media screen and (max-width: 767px){
     header nav ul{
         display: none;
     }
@@ -144,4 +110,4 @@ section:last-of-type{
     header nav svg{
         display: block;
     }
-}
+} */
