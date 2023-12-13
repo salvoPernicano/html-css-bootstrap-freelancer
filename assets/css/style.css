@@ -73,11 +73,11 @@ header nav svg{
 .green{
     margin: 20px 0;
     padding: 10px 15px;
-    border: 1px solid white;
+    border: 1px solid #1abc9c;
     font-size: 1.2rem;
     border-radius: 5px;
     color: white;
-    background-color: transparent;
+    background-color:#1abc9c;
     font-weight: 500;
     transition: all .5s;
 }
@@ -87,27 +87,8 @@ header nav svg{
     background-color: white;
 }
 
-.form_contatti{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    font-weight: 500;
-}
 
-.form_contatti h2:not(:last-of-type){
-    font-size: 1.5rem;
-    border-bottom: 1px solid grey;
-    width: 200px;
-    padding-block: 1em;
-}
 
-input,
-textarea{
-    outline: none;
-    border: none;
-    border-bottom: 1px solid grey;
-    margin-block: 1em;
-}
 .white{
     width: 100px;
     background-color: white;
